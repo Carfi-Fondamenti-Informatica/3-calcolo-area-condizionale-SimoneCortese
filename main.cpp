@@ -3,17 +3,17 @@ using namespace std;
 
 int main() {
    int opzione;
-   float lato_a, lato_b, result;
-   cin>>lato_a>>lato_b>>opzione;
+   float a, b, result;
+   cin>>a>>b>>opzione;
    switch (opzione){
       case 0:
-         result = (lato_a*lato_b) /2;
+         result = (a*b) /2;
          break;
       case 1:
-         result = lato_a*lato_a;
+         result = a*a;
          break;
       case 2:
-         result = lato_a*lato_b;
+         result = a*b;
          break;
       default:
          cout<< "opzione non valida";
